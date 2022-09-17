@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+
 import { Block, Title } from './FeedbackStyled';
 
  const FeedbackBlock = ({ title, children }) => {
