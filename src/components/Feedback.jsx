@@ -1,5 +1,4 @@
 import { Component } from "react";
-import styled from 'styled-components';
 import FeedbackBlock from "./FeedbackBlock";
 import Statistics from "./Statistics";
 import FeedbackOptions from "./FeedbackOptions";
