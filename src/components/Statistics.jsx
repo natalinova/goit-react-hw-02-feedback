@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import {Button, Statistic} from './FeedbackStyled'
 
 export default function Statistics({ addFeedback }) {
-    return( <div>
-                    <button onClick={() => addFeedback('good')}>Good</button>
-                    <button onClick={() => addFeedback('neutral')}>Neutral</button>
-                    <button onClick={() => addFeedback('bad')}>Bad</button>
-                </div>
+    return( <Statistic>
+                    <Button onClick={() => addFeedback('good')}>Good</Button>
+                    <Button onClick={() => addFeedback('neutral')}>Neutral</Button>
+                    <Button onClick={() => addFeedback('bad')}>Bad</Button>
+                </Statistic>
 
     )
    

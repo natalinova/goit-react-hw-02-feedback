@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { Block } from './FeedbackStyled';
+import { Block, Title } from './FeedbackStyled';
 
  const FeedbackBlock = ({ title, children }) => {
      return (
         <Block>
-             <h2>{ title}</h2>
+             <Title>{ title}</Title>
              {children}
         </Block>
         
